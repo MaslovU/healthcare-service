@@ -41,6 +41,7 @@ public class Main {
         MedicalService medicalService = new MedicalServiceImpl(patientInfoRepository, alertService);
 
         //run service
+//        String id1 = "fdd289a2-3bfb-48e1-8359-7f03277c0358";
         BloodPressure currentPressure = new BloodPressure(60, 120);
         medicalService.checkBloodPressure(id1, currentPressure);
 
